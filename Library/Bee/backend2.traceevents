@@ -1,0 +1,250 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1698591573191684, "dur":12459, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698591573204203, "dur":529, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698591573204751, "dur":2130, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698591573206882, "dur":400534, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698591573607429, "dur":436, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698591573608064, "dur":4551, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1698591573204749, "dur":2137, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698591573206888, "dur":1426, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698591573275890, "dur":8016, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1698591573283912, "dur":86, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1698591573284010, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1698591573284263, "dur":101, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Download\\Unity2D_Sample-master\\Unity2D_Sample-master\\Projects\\QinFire\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698591573284409, "dur":74, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player703abfb8-inputdata.json" }}
+,{ "pid":12345, "tid":1, "ts":1698591573283910, "dur":652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1698591573284986, "dur":61, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698591573285231, "dur":140018, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1698591573426745, "dur":120, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1698591573426744, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity//mizuyuu QinFire/shooting_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1698591573426884, "dur":2076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1698591573428977, "dur":38023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698591573467113, "dur":1762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698591573468936, "dur":30255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698591573499252, "dur":44837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698591573544135, "dur":9388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1698591573553538, "dur":53912, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698591573204778, "dur":2119, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698591573206900, "dur":284, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698591573207184, "dur":1139, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698591573208332, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity//mizuyuu QinFire/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1698591573270639, "dur":9029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1698591573279704, "dur":169847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698591573449595, "dur":32824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698591573482452, "dur":33558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698591573516044, "dur":37294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698591573553354, "dur":54070, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698591573204769, "dur":2121, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698591573206895, "dur":306, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698591573207202, "dur":1116, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698591573208323, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity//mizuyuu QinFire/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1698591573227039, "dur":610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1698591573227672, "dur":47723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698591573275457, "dur":169326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698591573444830, "dur":37394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698591573482258, "dur":69970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698591573552248, "dur":55201, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698591573204807, "dur":2095, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698591573206904, "dur":264, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698591573207169, "dur":1158, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698591573208333, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity//mizuyuu QinFire/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1698591573216231, "dur":6614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1698591573222870, "dur":223946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698591573446885, "dur":32933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698591573479861, "dur":36641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698591573516530, "dur":35571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698591573552116, "dur":55304, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698591573204830, "dur":2076, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698591573206908, "dur":296, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698591573207205, "dur":1116, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698591573209284, "dur":8573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1698591573217890, "dur":306675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698591573524602, "dur":25922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1698591573550542, "dur":56897, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698591573204856, "dur":2056, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698591573206915, "dur":314, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698591573207230, "dur":1104, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698591573261182, "dur":1658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1698591573262877, "dur":34523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698591573297466, "dur":116821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698591573414341, "dur":91242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698591573505619, "dur":46053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698591573551693, "dur":55724, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698591573204886, "dur":2031, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698591573206921, "dur":313, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698591573207234, "dur":1095, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698591573256980, "dur":309079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1698591573566074, "dur":41340, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698591573204908, "dur":2015, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698591573206926, "dur":295, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698591573207221, "dur":1135, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698591573208401, "dur":87, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Program Files\\Unity\\Hub\\Editor\\2022.3.12f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698591573208357, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity//mizuyuu QinFire/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698591573329285, "dur":43006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698591573372337, "dur":45247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698591573417676, "dur":95236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698591573512954, "dur":42633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698591573555598, "dur":51824, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698591573204961, "dur":1969, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698591573206932, "dur":73, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698591573207006, "dur":1339, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698591573220253, "dur":5937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1698591573226219, "dur":72638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698591573298899, "dur":146466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698591573445451, "dur":41406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698591573486895, "dur":35109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698591573522048, "dur":12085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":9, "ts":1698591573534165, "dur":15882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1698591573550067, "dur":57373, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698591573204995, "dur":1940, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698591573206935, "dur":1395, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698591573234504, "dur":1330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1698591573235862, "dur":148298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698591573384242, "dur":33206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698591573417492, "dur":49983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698591573467506, "dur":30304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698591573497880, "dur":91158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698591573589049, "dur":18377, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698591573205034, "dur":1906, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698591573206941, "dur":1379, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698591573244213, "dur":7811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1698591573252059, "dur":86016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698591573338121, "dur":30126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698591573368299, "dur":38217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698591573406561, "dur":28425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698591573435032, "dur":29636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698591573464732, "dur":58771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698591573523546, "dur":5735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1698591573529328, "dur":4027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1698591573533395, "dur":17264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/resources.resource" }}
+,{ "pid":12345, "tid":11, "ts":1698591573550678, "dur":56755, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698591573205059, "dur":1887, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698591573206946, "dur":1371, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698591573230926, "dur":1202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1698591573232160, "dur":99143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698591573331340, "dur":43504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698591573374886, "dur":43961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698591573418882, "dur":35447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698591573454370, "dur":29054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698591573483453, "dur":36132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698591573519639, "dur":86056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698591573605715, "dur":1741, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1698591573205092, "dur":1859, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1698591573206952, "dur":1363, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1698591573212921, "dur":1318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/app.info" }}
+,{ "pid":12345, "tid":13, "ts":1698591573214269, "dur":6111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":13, "ts":1698591573220400, "dur":188923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":13, "ts":1698591573409403, "dur":46208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1698591573455661, "dur":48201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1698591573503898, "dur":38732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1698591573542669, "dur":3439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/level0" }}
+,{ "pid":12345, "tid":13, "ts":1698591573546128, "dur":61284, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1698591573205121, "dur":1835, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1698591573206957, "dur":1375, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1698591573208336, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity//mizuyuu QinFire/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1698591573241038, "dur":7671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1698591573248749, "dur":139700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":14, "ts":1698591573388489, "dur":28018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1698591573416547, "dur":49200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1698591573465778, "dur":52102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1698591573517914, "dur":41038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1698591573558964, "dur":48468, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1698591573205146, "dur":1815, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1698591573206961, "dur":1401, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1698591573208378, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":15, "ts":1698591573208363, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity//mizuyuu QinFire/shooting.exe" }}
+,{ "pid":12345, "tid":15, "ts":1698591573302954, "dur":61, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1698591573300337, "dur":2708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting.exe" }}
+,{ "pid":12345, "tid":15, "ts":1698591573303088, "dur":205351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":15, "ts":1698591573508475, "dur":50437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1698591573558926, "dur":48531, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1698591573205173, "dur":1792, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1698591573206965, "dur":1359, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1698591573248340, "dur":7217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1698591573255589, "dur":94977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":16, "ts":1698591573350611, "dur":46203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1698591573396853, "dur":67989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1698591573464876, "dur":32178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1698591573530471, "dur":97, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1698591573497106, "dur":33497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1698591573530682, "dur":5635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":16, "ts":1698591573536359, "dur":5653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/level2" }}
+,{ "pid":12345, "tid":16, "ts":1698591573542066, "dur":3273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/level1" }}
+,{ "pid":12345, "tid":16, "ts":1698591573545356, "dur":62073, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1698591573205212, "dur":1758, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1698591573206970, "dur":1387, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1698591573208396, "dur":90, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Program Files\\Unity\\Hub\\Editor\\2022.3.12f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":17, "ts":1698591573208359, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity//mizuyuu QinFire/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":17, "ts":1698591573308975, "dur":66685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":17, "ts":1698591573375695, "dur":29366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1698591573405201, "dur":35240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1698591573440490, "dur":39354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1698591573479876, "dur":85957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1698591573565849, "dur":41605, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1698591573205229, "dur":1744, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1698591573206973, "dur":1367, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1698591573252457, "dur":1681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":18, "ts":1698591573254180, "dur":77756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":18, "ts":1698591573331977, "dur":64406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1698591573396434, "dur":32485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1698591573428967, "dur":52858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1698591573481860, "dur":32871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1698591573514768, "dur":92588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1698591573205246, "dur":1732, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1698591573206978, "dur":1376, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1698591573208358, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity//mizuyuu QinFire/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":19, "ts":1698591573287464, "dur":2004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":19, "ts":1698591573289520, "dur":49333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":19, "ts":1698591573338888, "dur":44409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1698591573383388, "dur":34850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1698591573418284, "dur":57352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1698591573475922, "dur":44576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1698591573520525, "dur":24657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":19, "ts":1698591573545217, "dur":1844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":19, "ts":1698591573547076, "dur":60369, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1698591573205266, "dur":1716, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1698591573206983, "dur":1353, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1698591573208385, "dur":94, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Program Files\\Unity\\Hub\\Editor\\2022.3.12f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":20, "ts":1698591573208339, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity//mizuyuu QinFire/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":20, "ts":1698591573293649, "dur":13661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":20, "ts":1698591573307353, "dur":51622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":20, "ts":1698591573359018, "dur":27922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1698591573386976, "dur":32030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1698591573419044, "dur":48387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1698591573467472, "dur":33925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1698591573501434, "dur":30825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1698591573532328, "dur":16406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":20, "ts":1698591573548759, "dur":58684, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1698591573205286, "dur":1700, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1698591573206987, "dur":1355, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1698591573208345, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity//mizuyuu QinFire/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":21, "ts":1698591573265679, "dur":8504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":21, "ts":1698591573274260, "dur":39281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":21, "ts":1698591573313576, "dur":67485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":21, "ts":1698591573381132, "dur":99530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1698591573480710, "dur":32775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1698591573513520, "dur":44689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1698591573558221, "dur":49215, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1698591573205307, "dur":1684, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1698591573206991, "dur":1359, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1698591573223413, "dur":298877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":22, "ts":1698591573522333, "dur":12102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":22, "ts":1698591573534484, "dur":14391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/resources.assets" }}
+,{ "pid":12345, "tid":22, "ts":1698591573548891, "dur":58537, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1698591573205336, "dur":1659, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1698591573206996, "dur":1352, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1698591573208374, "dur":96, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Program Files\\Unity\\Hub\\Editor\\2022.3.12f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":23, "ts":1698591573208356, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity//mizuyuu QinFire/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":23, "ts":1698591573280841, "dur":10034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":23, "ts":1698591573290910, "dur":128929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":23, "ts":1698591573419872, "dur":32493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1698591573452407, "dur":72338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1698591573524775, "dur":20523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":23, "ts":1698591573545349, "dur":7280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/shooting_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":23, "ts":1698591573552648, "dur":54794, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1698591573205358, "dur":1641, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1698591573207000, "dur":1338, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1698591573237743, "dur":315669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity//mizuyuu QinFire/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":24, "ts":1698591573553431, "dur":54006, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698591573616759, "dur":697, "ph":"X", "name": "ProfilerWriteOutput" }
+,
